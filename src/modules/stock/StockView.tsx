@@ -8,7 +8,7 @@ type PaginationContextType = {
   pageSize: number;
 } | null;
 
-export const PaginationContext = createContext<PaginationContextType>(null);
+export const PaginationContext = createContext<PaginationContextType>(null);// this is for pagination
 
 export const StockView = () => {
   const [page, setPage] = useState(1);
